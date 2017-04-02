@@ -1,0 +1,25 @@
+{
+    "name": "templnoe-api",
+    "version": "0.0.0",
+    "description": "sports betting analytics app",
+    "author": "Steve Whelan",
+    "contributors": [
+	{
+	  "name": "Steve Whelan",
+	  "email": "swhelan091@gmail.com"
+	}
+    ],
+    "repository" : {
+	"type": "git",
+	"url": "https://github.com/swhelan091/Templenoe"
+    },
+    "main": "server.js",
+    "dependencies": {
+	"body-parser": "^1.15.2",
+	"debug": "~2.2.0",
+        "express": "^4.14.0",
+	"pg": "^6.1.0",
+        "sequelize": "^3.23.6",
+	"sequelize-cli": "^2.4.0"
+    }
+}
