@@ -1,20 +1,19 @@
 -- Deploy templenoe:bets to pg
--- requires: appschema
 
 BEGIN;
 
-CREATE TABLE templenoe.bets (
-	index serial unique,
+CREATE TABLE public.bets (
+	id serial unique,
 	pdate DATE not null,
 	league int not null,
 	bet_type int not null,
 	bet_amount decimal not null,
 	pnl decimal not null,
-	FOREIGN KEY(league) REFERENCES templenoe.sport_leagues(index),
-	FOREIGN KEY(bet_type) REFERENCES templenoe.bet_type(index)
+	FOREIGN KEY(league) REFERENCES public.sport_leagues(id),
+	FOREIGN KEY(bet_type) REFERENCES public.bet_type(id)
 	);
 
-INSERT INTO templenoe.bets (pdate, league, bet_type, bet_amount, pnl) VALUES 
+INSERT INTO public.bets (pdate, league, bet_type, bet_amount, pnl) VALUES 
 
 
 ('2015-11-07',1,2,30,-30),

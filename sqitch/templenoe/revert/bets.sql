@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE templenoe.bets;
+DROP TABLE public.bets;
 
 COMMIT;

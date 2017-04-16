@@ -1,7 +1,7 @@
--- Verify templenoe:account_actions on pg
+-- Verify public:account_actions on pg
 
 BEGIN;
 
-SELECT 1/COUNT(*) FROM templenoe.account_actions;
+SELECT 1/COUNT(*) FROM public.account_actions;
 
 ROLLBACK;

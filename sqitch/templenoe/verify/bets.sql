@@ -2,6 +2,6 @@
 
 BEGIN;
 
-SELECT * FROM templenoe.bets;
+SELECT * FROM public.bets;
 
 ROLLBACK;

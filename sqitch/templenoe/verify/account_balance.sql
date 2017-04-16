@@ -2,6 +2,6 @@
 
 BEGIN;
 
-SELECT * FROM templenoe.account_balance;
+SELECT * FROM public.account_balance;
 
 ROLLBACK;

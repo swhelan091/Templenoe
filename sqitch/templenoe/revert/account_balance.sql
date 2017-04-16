@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE templenoe.account_balance;
+DROP TABLE public.account_balance;
 
 COMMIT;

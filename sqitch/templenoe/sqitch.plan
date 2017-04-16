@@ -1,12 +1,12 @@
 %syntax-version=1.0.0
 %project=templenoe
 
-appschema 2017-03-31T02:50:29Z Steve Whelan <swhelan091@gmail.com> # Add schema
-bet_type [appschema] 2017-04-01T19:42:46Z Steve Whelan <swhelan091@gmail.com> # create table of bet types
-sport_categories [appschema] 2017-04-01T19:51:59Z Steve Whelan <swhelan091@gmail.com> # create table of sport categories
-sport_leagues [appschema] 2017-04-01T19:55:23Z Steve Whelan <swhelan091@gmail.com> # create table of sports leagues
-account_actions [appschema] 2017-04-01T20:06:29Z Steve Whelan <swhelan091@gmail.com> # create table of account actions
-account_activity [appschema] 2017-04-01T20:05:58Z Steve Whelan <swhelan091@gmail.com> # create table of account activities
-account_balance [appschema] 2017-04-01T20:06:16Z Steve Whelan <swhelan091@gmail.com> # create table of account balance
+#appschema 2017-03-31T02:50:29Z Steve Whelan <swhelan091@gmail.com> # Add schema
+bet_type 2017-04-01T19:42:46Z Steve Whelan <swhelan091@gmail.com> # create table of bet types
+sport_categories 2017-04-01T19:51:59Z Steve Whelan <swhelan091@gmail.com> # create table of sport categories
+sport_leagues 2017-04-01T19:55:23Z Steve Whelan <swhelan091@gmail.com> # create table of sports leagues
+account_actions 2017-04-01T20:06:29Z Steve Whelan <swhelan091@gmail.com> # create table of account actions
+account_activity 2017-04-01T20:05:58Z Steve Whelan <swhelan091@gmail.com> # create table of account activities
+account_balance 2017-04-01T20:06:16Z Steve Whelan <swhelan091@gmail.com> # create table of account balance
 
-bets [appschema] 2017-04-01T21:44:13Z Steve Whelan <swhelan091@gmail.com> # create table of bets
+bets 2017-04-01T21:44:13Z Steve Whelan <swhelan091@gmail.com> # create table of bets

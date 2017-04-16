@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE templenoe.account_activity;
+DROP TABLE public.account_activity;
 
 COMMIT;
