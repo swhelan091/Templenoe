@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE templenoe.sport_leagues;
+DROP TABLE public.sport_leagues;
 
 COMMIT;

@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP TABLE templenoe.bet_type;
+DROP TABLE public.bet_type;
 
 COMMIT;

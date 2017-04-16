@@ -2,6 +2,6 @@
 
 BEGIN;
 
-SELECT 1/COUNT(*) FROM templenoe.account_activity;
+SELECT 1/COUNT(*) FROM public.account_activity;
 
 ROLLBACK;

@@ -2,6 +2,6 @@
 
 BEGIN;
 
-Select 1/count(*) from templenoe.bet_type;
+Select 1/count(*) from public.bet_type;
 
 ROLLBACK;

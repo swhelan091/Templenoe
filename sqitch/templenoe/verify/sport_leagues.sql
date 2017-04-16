@@ -2,6 +2,6 @@
 
 BEGIN;
 
-SELECT 1/COUNT(*) FROM templenoe.sport_leagues;
+SELECT 1/COUNT(*) FROM public.sport_leagues;
 
 ROLLBACK;
