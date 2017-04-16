@@ -3,12 +3,11 @@ module.exports = {
   up: (queryInterface, Sequelize) =>
       queryInterface.createTable('bets', {
       id: {
-        allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      date: {
+      pdate: {
         allowNull: false,
         type: Sequelize.DATE
       },

@@ -4,7 +4,7 @@ module.exports = {
   create(req, res) {
     return Bet
       .create({
-        date: req.body.date,
+        pdate: req.body.pdate,
     		league: req.body.league,
     		bet_type: req.body.bet_type,
     		bet_amount: req.body.bet_amount,

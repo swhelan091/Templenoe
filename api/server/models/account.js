@@ -1,7 +1,13 @@
-// 'use strict';
+'use strict';
+
 module.exports = (sequelize, DataTypes) => {
   const Account = sequelize.define('Account', {
-    date: { 
+    id: {
+      autoIncrement: true,
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
+    pdate: { 
       type: DataTypes.DATE,
       allowNull: false,
     },
@@ -10,11 +16,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     }
   }, {
-    classMethods: {
-      associate: function(models) {
-        // associations can be defined here
-      }
-    }
+  	timestamps: false,
+  	underscored: true,
+  	tableName: 'account_balance'
   });
   return Account;
 };
