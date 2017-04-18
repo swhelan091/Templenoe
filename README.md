@@ -7,7 +7,7 @@ Templenoe is a web application for sports betting analytics.
 - Frontend - Angular
 - API - Node JS
 - Database - Postgres
-	- Utilize (Sqitch)[http://sqitch.org/] for deployment.
+	- Utilize [Sqitch](http://sqitch.org/) for deployment.
 
 
 ## Dependencies
